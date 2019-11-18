@@ -21,9 +21,9 @@ function App() {
         <ul style={{listStyle: 'none', display: 'flex'}}>
           <li><Link style={{textDecoration: 'none', color: 'whitesmoke'}} to='/'>Home</Link></li>
           <li >
-            <input onChange={handleChange} type='text' name='search' placeholder='Search'/>
-            <button  onSubmit={handleSubmit}>Search</button></li>
-          <li> <Link style={{textDecoration: 'none', color: 'whitesmoke'}}>Login</Link></li>
+            <input style={{marginLeft:'2rem'}} onChange={handleChange} type='text' name='search' placeholder='Search'/>
+            <button style={{marginLeft:'1rem'}} onSubmit={handleSubmit}>Search</button></li>
+          <li> <Link style={{textDecoration: 'none', color: 'whitesmoke', marginLeft:'2rem'}}>Login</Link></li>
         </ul>
       </header>
 

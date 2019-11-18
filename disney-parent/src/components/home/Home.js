@@ -22,14 +22,20 @@ const Home = props => {
       {props.ParentAdd ? (
         props.ParentAdd.map(add => {
           return (
-            <div key={add.id}>
+            <div style={{
+                backgroundColor: "whitesmoke",
+                width: "40%",
+                margin: "0 auto",
+                marginTop: "1rem",
+                borderRadius: '1rem'
+              }} key={add.id}>
               <h1>{add.headline}</h1>
               <h3>
                 {add.time} | {add.location}
               </h3>
-              <textarea rows='10'>{add.body}</textarea>
-              <p>{add.numComments}</p>
-              <button onClick={handleClick}>Comment</button>
+              <textarea cols='60' rows="10">{add.body}</textarea>
+              <p style={{ marginBottom: "2rem" }}>{add.numComments}</p>
+              <button style={{ marginBottom: "1rem" }} onClick={handleClick}>Comment</button>
               {/*Does not work if not logged in */}
             </div>
           );
