@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import reducer from "./reducer";
+import { Provider } from "react-redux";
 import { BrowserRouter as Router } from "react-router-dom";
 import { createStore } from "redux";
-import reducer from "./reducer";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
@@ -11,9 +11,11 @@ import * as serviceWorker from "./serviceWorker";
 const store = createStore(reducer);
 
 ReactDOM.render(
-  <Router>
-    <App />
-  </Router>,
+  <Provider store={store}>
+    <Router >
+      <App />
+    </Router>
+  </Provider>,
   document.getElementById("root")
 );
 
