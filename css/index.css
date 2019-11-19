@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .navLink {
-	color: #4287f5;
+	color: white;
 	font-size: 14px;
     text-decoration: none;
     margin-right: 60px;
@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5 {
 
 #bannerSection {
 	height: 480px;
-	border-bottom: 1px solid #4287f5;
+	border-bottom: 1px solid white;
 	margin: 0px 0px 30px 0px;
 	display: flex;
 	justify-content: space-between;
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5 {
 
 #tagline {
     font-size: 60px;
-    color: #4287f5;
+    color: white;
 }
 
 #signUp {
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5 {
 	width: 150px;
 	color: #042f74;
 	font-size: 16x;
-	border: 1px solid #4287f5;
+	border: 1px solid white;
 	padding: 2px;
 	text-decoration: none;
 	background-color: rgb(206, 211, 218);
@@ -147,12 +147,12 @@ h1, h2, h3, h4, h5 {
 
 #features {
     width: 440px;
-    color: #4287f5;
+    color: white;
 }
 
 #about {
     width: 440px;
-    color: #4287f5;
+    color: white;
 }
 
 #lowerSection {
@@ -175,17 +175,17 @@ h1, h2, h3, h4, h5 {
 }
 
 #address {
-	border-top: 1px solid#4287f5;
+	border-top: 1px solidwhite;
 	width: 880px;
     padding: 40px 0px 0px 0px;
-    color:#4287f5;
+    color:white;
 }
 
 #footer {
 	text-align: center;
 	margin: 28px 0px;
     font-size: 14px;
-    color: #4287f5;
+    color: white;
 }
 
 /* Hi GUYS!  These are the media queries. */
@@ -240,7 +240,7 @@ h1, h2, h3, h4, h5 {
     #upperSection {
     	justify-content: space-between;
         width: 755px;
-        border-top: 2px solid #4287f5;
+        border-top: 2px solid white;
         margin: 0px 0px 40px 20px;
         padding: 30px 0px 0px 10px;
     }
@@ -278,7 +278,7 @@ h1, h2, h3, h4, h5 {
     }
 
     #address {
-        border-top: 2px solid #4287f5;
+        border-top: 2px solid white;
         margin-left: 20px;
         width: 755px;
         padding: 30px 0px 0px 5px;
@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5 {
         margin-bottom: 0px;
         padding: 22px 0px;
         width: 500px;
-        border-top: 1px solid #4287f5;
+        border-top: 1px solid white;
     }
 
     #bannerSection {
@@ -327,7 +327,7 @@ h1, h2, h3, h4, h5 {
     }
 
     #tagline {
-        border-top: 1px solid #4287f5;
+        border-top: 1px solid white;
         width: 500px;
         margin-top: 25px;
         padding-top: 40px;
