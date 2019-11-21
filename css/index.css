@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5 {
     
 }/* My code starts here */
 
-.content {
+.content  {
     max-width: 880px;
 	margin: auto;
     justify-content: center;
@@ -85,6 +85,16 @@ h1, h2, h3, h4, h5 {
     padding-right: 15px;
     min-height: 100%;
     box-shadow: 0px 10px 160px black;
+}
+#upperSectionAbout {
+    max-width: 880px;
+	margin: auto;
+    justify-content: center;
+    background: #ffffff73;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 100%;
+    box-shadow: 0px 10px 160px black; 
 }
 
 #headerImage {
@@ -123,14 +133,32 @@ h1, h2, h3, h4, h5 {
     align-items: center;
     
 }
+#bannerSectionAbout {
+	height: 480px;
+	border-bottom: 1px solid #030a16;
+	margin: 0px 0px 30px 0px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    
+}
 
 #taglineBox {
 	display: flex;
 	flex-flow: column wrap;
 	text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+	width: 100%;
+	height: 480px;
+}
+#taglineBoxAbout {
+	display: flex;
+	flex-flow: column wrap;
+	text-align: center;
     justify-content: center;
     align-items: center;
-	width: 500px;
+	width: 100%;
 	height: 480px;
 }
 
@@ -139,28 +167,44 @@ h1, h2, h3, h4, h5 {
     color: #030a16;
 }
 
-#signUp {
-	height: 60px;
-    width: 60px;
+#taglineAbout {
+    font-size: 60px;
+    color: #030a16;
+}
+
+.logButt {
+    justify-content: end;
     color: #042f74;
 	font-size: 16x;
-	border: 1px solid darkslategray;
-	padding: 10.7px;
-	text-decoration: none;
+	/* border: 1px solid darkslategray; */
+	padding: 6px;
+
+}
+
+#signUp {
+	height: 150px;
+    width: 150px;
+    text-decoration: none;
 	background-color:darkslategray;
     animation-name: example;
 	animation-duration: 1s;
 	animation-iteration-count: infinite;
     animation-direction: alternate;
-    border-radius: 50%;
+    /* border-radius: 100%; */
     box-shadow: 5px 5px 35px black;
+
 }
+/* #logIn {
+	height: 50px;
+    width: 50px;
+
+} */
 
 #upperSection {
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 25px 5px;
 }
 
 #features {
@@ -192,13 +236,15 @@ h1, h2, h3, h4, h5 {
 	width: 290px;
 } */
 
-#address {
-    justify-content: center;
-    align-items: baseline;
-	border-top: 1px solid#030a16;
-	width: 880px;
-    padding: 40px 0px 0px 0px;
-    color:#030a16;
+#address h2 p {
+    max-width: 880px;
+	margin: auto;
+    justify-content: flex-end;
+    /* background: #ffffff73; */
+    padding-left: 15px;
+    padding-right: 15px;
+    /* min-height: 100%; */
+    /* box-shadow: 0px 10px 160px black; */
 }
 .bottomEars {
     position: static;
@@ -229,8 +275,27 @@ h1, h2, h3, h4, h5 {
 /* Tablet */
 
 @media (max-width: 800px) {
-
-
+    .logButt {
+        /* justify-content: end; */
+        color: #042f74;
+        font-size: 16x;
+        /* border: 1px solid darkslategray; */
+        padding: 6px;
+    
+    }
+    
+    #signUp {
+        height: 150px;
+        width: 150px;
+        text-decoration: none;
+        background-color:darkslategray;
+        animation-name: example;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        /* border-radius: 100%; */
+        box-shadow: 5px 5px 35px black;
+    }
     #navbar {
         flex-flow: column-reverse nowrap;
     }
